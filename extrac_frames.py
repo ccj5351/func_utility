@@ -5,7 +5,7 @@
 # @author: Changjiang Cai, ccai1@stevens.edu, caicj5351@gmail.com
 # @version: 0.0.1
 # @creation date: 20-10-2020
-# @last modified: Tue 20 Oct 2020 04:04:37 PM EDT
+# @last modified: Sat 24 Oct 2020 05:51:32 PM EDT
 
 import sys
 import argparse
@@ -126,6 +126,25 @@ def get_msnet_all():
         tmp_all = np.concatenate((img1, gap, img2), axis = 1)
         cv2.imwrite("./msnet_combine/frame_%03d.png" %i, tmp_all)
 
+def decode_gif_file(filename):
+    img = Image.open(filename)
+    try:
+        img.seek(1)
+    except EOFError:
+        print('Warning: it is a single frame GIF.')
+        return img, 1
+    return img, 2
+
+def downscale_gif(filename, scale = 2):
+    img, num = decode_gif_file(filename)
+    w, h = img.size
+    if scale > 0:
+        w_new , h_new = w// scale, h // scale
+    else:
+        w_new , h_new = 512, 512
+    res = img.resize((w_new, h_new), Image.BILINEAR)
+    res.save(filename[:-4]+"-w%d-h%d.gif"%(w_new, h_new))
+
 
 if __name__=="__main__":
     a = argparse.ArgumentParser()
@@ -138,4 +157,8 @@ if __name__=="__main__":
     #get_msnet_all()
     #img2mp4(img_dir = "./msnet_combine", fps=25)
     #img2mp4_ffmpeg(fps= 25)
-    img2avi(img_dir = "./msnet_combine", fps = 25)
+    #img2avi(img_dir = "./msnet_combine", fps = 25)
+    downscale_gif('/media/ccjData3_HDD/Downloads2/teaser-fig-msnet-512.png', scale = 1)
+
+
+
