@@ -1,0 +1,496 @@
+{
+  "cropHintsAnnotation": {
+    "cropHints": [
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "x": 86
+            },
+            {
+              "x": 730
+            },
+            {
+              "x": 730,
+              "y": 804
+            },
+            {
+              "x": 86,
+              "y": 804
+            }
+          ]
+        },
+        "confidence": 0.42253008,
+        "importanceFraction": 1
+      },
+      {
+        "boundingPoly": {
+          "vertices": [
+            {},
+            {
+              "x": 805
+            },
+            {
+              "x": 805,
+              "y": 804
+            },
+            {
+              "y": 804
+            }
+          ]
+        },
+        "confidence": 0.33802405,
+        "importanceFraction": 1
+      },
+      {
+        "boundingPoly": {
+          "vertices": [
+            {},
+            {
+              "x": 859
+            },
+            {
+              "x": 859,
+              "y": 716
+            },
+            {
+              "y": 716
+            }
+          ]
+        },
+        "confidence": 0.35540518,
+        "importanceFraction": 1
+      }
+    ]
+  },
+  "imagePropertiesAnnotation": {
+    "cropHints": [
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "x": 86
+            },
+            {
+              "x": 730
+            },
+            {
+              "x": 730,
+              "y": 804
+            },
+            {
+              "x": 86,
+              "y": 804
+            }
+          ]
+        },
+        "confidence": 0.42253008,
+        "importanceFraction": 1
+      },
+      {
+        "boundingPoly": {
+          "vertices": [
+            {},
+            {
+              "x": 805
+            },
+            {
+              "x": 805,
+              "y": 804
+            },
+            {
+              "y": 804
+            }
+          ]
+        },
+        "confidence": 0.33802405,
+        "importanceFraction": 1
+      },
+      {
+        "boundingPoly": {
+          "vertices": [
+            {},
+            {
+              "x": 859
+            },
+            {
+              "x": 859,
+              "y": 716
+            },
+            {
+              "y": 716
+            }
+          ]
+        },
+        "confidence": 0.35540518,
+        "importanceFraction": 1
+      }
+    ],
+    "dominantColors": {
+      "colors": [
+        {
+          "color": {
+            "blue": 48,
+            "green": 47,
+            "red": 56
+          },
+          "hex": "382F30",
+          "percent": 32.4216892029581,
+          "percentRounded": 32,
+          "pixelFraction": 0.06409736,
+          "rgb": "56, 47,\n 48",
+          "score": 0.32069612
+        },
+        {
+          "color": {
+            "blue": 186,
+            "green": 184,
+            "red": 195
+          },
+          "hex": "C3B8BA",
+          "percent": 21.251245886089396,
+          "percentRounded": 21,
+          "pixelFraction": 0.10694726,
+          "rgb": "195, 184,\n 186",
+          "score": 0.21020472
+        },
+        {
+          "color": {
+            "blue": 64,
+            "green": 70,
+            "red": 108
+          },
+          "hex": "6C4640",
+          "percent": 0.38524695647362595,
+          "percentRounded": 0,
+          "pixelFraction": 0.0018255578,
+          "rgb": "108, 70,\n 64",
+          "score": 0.0038106344
+        },
+        {
+          "color": {
+            "blue": 25,
+            "green": 25,
+            "red": 32
+          },
+          "hex": "201919",
+          "percent": 18.18463257877519,
+          "percentRounded": 18,
+          "pixelFraction": 0.0510142,
+          "rgb": "32, 25,\n 25",
+          "score": 0.1798716
+        },
+        {
+          "color": {
+            "blue": 161,
+            "green": 161,
+            "red": 172
+          },
+          "hex": "ACA1A1",
+          "percent": 12.00010284765466,
+          "percentRounded": 12,
+          "pixelFraction": 0.028600406,
+          "rgb": "172, 161,\n 161",
+          "score": 0.1186979
+        },
+        {
+          "color": {
+            "blue": 78,
+            "green": 79,
+            "red": 90
+          },
+          "hex": "5A4F4E",
+          "percent": 8.68323838524418,
+          "percentRounded": 9,
+          "pixelFraction": 0.025557809,
+          "rgb": "90, 79,\n 78",
+          "score": 0.085889444
+        },
+        {
+          "color": {
+            "blue": 116,
+            "green": 116,
+            "red": 127
+          },
+          "hex": "7F7474",
+          "percent": 3.4757047585699206,
+          "percentRounded": 3,
+          "pixelFraction": 0.011612576,
+          "rgb": "127, 116,\n 116",
+          "score": 0.03437961
+        },
+        {
+          "color": {
+            "blue": 243,
+            "green": 245,
+            "red": 248
+          },
+          "hex": "F8F5F3",
+          "percent": 3.0057536129720623,
+          "percentRounded": 3,
+          "pixelFraction": 0.6878296,
+          "rgb": "248, 245,\n 243",
+          "score": 0.029731132
+        },
+        {
+          "color": {
+            "blue": 68,
+            "green": 72,
+            "red": 101
+          },
+          "hex": "654844",
+          "percent": 0.308733280680082,
+          "percentRounded": 0,
+          "pixelFraction": 0.0037018256,
+          "rgb": "101, 72,\n 68",
+          "score": 0.0030538065
+        },
+        {
+          "color": {
+            "blue": 43,
+            "green": 53,
+            "red": 83
+          },
+          "hex": "53352B",
+          "percent": 0.283652490582798,
+          "percentRounded": 0,
+          "pixelFraction": 0.0022312372,
+          "rgb": "83, 53,\n 43",
+          "score": 0.0028057222
+        }
+      ]
+    }
+  },
+  "labelAnnotations": [
+    {
+      "description": "Sleeve",
+      "mid": "/m/062581",
+      "score": 0.97100765,
+      "topicality": 0.97100765
+    },
+    {
+      "description": "Trousers",
+      "mid": "/m/07mhn",
+      "score": 0.96989155,
+      "topicality": 0.96989155
+    },
+    {
+      "description": "Shoulder",
+      "mid": "/m/01ssh5",
+      "score": 0.965268,
+      "topicality": 0.965268
+    },
+    {
+      "description": "Elbow",
+      "mid": "/m/01vm1p",
+      "score": 0.96366054,
+      "topicality": 0.96366054
+    },
+    {
+      "description": "Shoe",
+      "mid": "/m/06rrc",
+      "score": 0.96084344,
+      "topicality": 0.96084344
+    },
+    {
+      "description": "Standing",
+      "mid": "/m/02wzbmj",
+      "score": 0.9521578,
+      "topicality": 0.9521578
+    },
+    {
+      "description": "Human leg",
+      "mid": "/m/09w5r",
+      "score": 0.9466373,
+      "topicality": 0.9466373
+    },
+    {
+      "description": "T-shirt",
+      "mid": "/m/013s93",
+      "score": 0.93080264,
+      "topicality": 0.93080264
+    },
+    {
+      "description": "Sitting",
+      "mid": "/m/015c4z",
+      "score": 0.9189741,
+      "topicality": 0.9189741
+    },
+    {
+      "description": "Knee",
+      "mid": "/m/019swr",
+      "score": 0.89488417,
+      "topicality": 0.89488417
+    },
+    {
+      "description": "Wrist",
+      "mid": "/m/01j48b",
+      "score": 0.87096083,
+      "topicality": 0.87096083
+    },
+    {
+      "description": "Denim",
+      "mid": "/m/0hgr6",
+      "score": 0.8509143,
+      "topicality": 0.8509143
+    },
+    {
+      "description": "Street fashion",
+      "mid": "/m/0408t8_",
+      "score": 0.8476771,
+      "topicality": 0.8476771
+    },
+    {
+      "description": "Pocket",
+      "mid": "/m/025rhd",
+      "score": 0.7936331,
+      "topicality": 0.7936331
+    },
+    {
+      "description": "Outdoor shoe",
+      "mid": "/m/0hgrj75",
+      "score": 0.7040156,
+      "topicality": 0.7040156
+    },
+    {
+      "description": "Walking shoe",
+      "mid": "/m/0hgs9bq",
+      "score": 0.6926127,
+      "topicality": 0.6926127
+    }
+  ],
+  "localizedObjectAnnotations": [
+    {
+      "boundingPoly": {
+        "normalizedVertices": [
+          {
+            "x": 0.45544755,
+            "y": 0.83132535
+          },
+          {
+            "x": 0.6050424,
+            "y": 0.83132535
+          },
+          {
+            "x": 0.6050424,
+            "y": 0.9597957
+          },
+          {
+            "x": 0.45544755,
+            "y": 0.9597957
+          }
+        ]
+      },
+      "mid": "/m/06rrc",
+      "name": "Shoe",
+      "score": 0.9507471
+    },
+    {
+      "boundingPoly": {
+        "normalizedVertices": [
+          {
+            "x": 0.18411519,
+            "y": 0.4763361
+          },
+          {
+            "x": 0.6858452,
+            "y": 0.4763361
+          },
+          {
+            "x": 0.6858452,
+            "y": 0.8762285
+          },
+          {
+            "x": 0.18411519,
+            "y": 0.8762285
+          }
+        ]
+      },
+      "mid": "/m/07mhn",
+      "name": "Pants",
+      "score": 0.94128156
+    },
+    {
+      "boundingPoly": {
+        "normalizedVertices": [
+          {
+            "x": 0.5977876,
+            "y": 0.8656526
+          },
+          {
+            "x": 0.82404524,
+            "y": 0.8656526
+          },
+          {
+            "x": 0.82404524,
+            "y": 0.99006724
+          },
+          {
+            "x": 0.5977876,
+            "y": 0.99006724
+          }
+        ]
+      },
+      "mid": "/m/06rrc",
+      "name": "Shoe",
+      "score": 0.9310774
+    },
+    {
+      "boundingPoly": {
+        "normalizedVertices": [
+          {
+            "x": 0.07028676,
+            "y": 0.02977144
+          },
+          {
+            "x": 0.8116026,
+            "y": 0.02977144
+          },
+          {
+            "x": 0.8116026,
+            "y": 0.976764
+          },
+          {
+            "x": 0.07028676,
+            "y": 0.976764
+          }
+        ]
+      },
+      "mid": "/m/01g317",
+      "name": "Person",
+      "score": 0.9067179
+    },
+    {
+      "boundingPoly": {
+        "normalizedVertices": [
+          {
+            "x": 0.07739413,
+            "y": 0.11498491
+          },
+          {
+            "x": 0.5386732,
+            "y": 0.11498491
+          },
+          {
+            "x": 0.5386732,
+            "y": 0.61620504
+          },
+          {
+            "x": 0.07739413,
+            "y": 0.61620504
+          }
+        ]
+      },
+      "mid": "/m/03gx245",
+      "name": "Top",
+      "score": 0.8937259
+    }
+  ],
+  "safeSearchAnnotation": {
+    "adult": "VERY_UNLIKELY",
+    "medical": "VERY_UNLIKELY",
+    "racy": "POSSIBLE",
+    "spoof": "VERY_UNLIKELY",
+    "violence": "UNLIKELY"
+  }
+}
