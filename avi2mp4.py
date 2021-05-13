@@ -5,7 +5,7 @@
 # @author: Changjiang Cai, ccai1@stevens.edu, caicj5351@gmail.com
 # @version: 0.0.1
 # @creation date: 25-08-2020
-# @last modified: Mon 12 Oct 2020 07:06:38 PM EDT
+# @last modified: Wed 12 May 2021 01:59:18 AM EDT
 
 import sys
 import os
@@ -28,7 +28,13 @@ def convert_avi_to_mp4_lossless(avi_file_path, output_name):
     return True
 #convert_avi_to_mp4('./cbmv-gcnet-imgs1150.avi', 'cbmv-gcnet-imgs1150.mp4')
 #convert_avi_to_mp4_lossless('./cbmv-gcnet-imgs1150.avi', 'cbmv-gcnet-imgs1150')
-convert_avi_to_mp4_lossless('./CVPR2020-CBMVPSMNet-raw.avi', 'ms-psmnet')
+#convert_avi_to_mp4_lossless('./CVPR2020-CBMVPSMNet-raw.avi', 'ms-psmnet')
+#convert_avi_to_mp4_lossless('/media/ccjData1_HDD/Dropbox/Towrads_Ph.D._CCJ/3DV-2020-two-papers-Oct_2/msnet/msnet_fps_25_used_in_ppt.avi', 
+#        'msnet_fps_25_used_in_ppt')
+convert_avi_to_mp4_lossless(
+        '/home/ccj/mvs-depth/results/fig-plot/qual-dep.avi', 
+        '/home/ccj/mvs-depth/results/fig-plot/qual-dep-convert',
+        )
 sys.exit()
 
 from converter import Converter

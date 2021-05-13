@@ -5,7 +5,7 @@
 # @author: Changjiang Cai, ccai1@stevens.edu, caicj5351@gmail.com
 # @version: 0.0.1
 # @creation date: 23-01-2021
-# @last modified: Sat 23 Jan 2021 09:42:21 PM EST
+# @last modified: Mon 25 Jan 2021 06:07:03 PM EST
 
 
 import numpy as np
@@ -59,7 +59,8 @@ def find_substring_in_files(file_list, substr_target = "\label", verbose = False
 if __name__ == "__main__":
     """ for PhD thesis proposal """ 
     if 1:
-        mypath = '/media/ccjData3_HDD/Downloads2/proposal_phd_ccj_2021-Jan23'
+        #mypath = '/media/ccjData3_HDD/Downloads2/proposal_phd_ccj_2021-Jan23'
+        mypath = '/media/ccjData3_HDD/Downloads2/proposal_phd_ccj_2021_Jan25'
         #onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
         #result = [y for x in os.walk(mypath) for y in glob(os.path.join(x[0], '*.tex'), recursive=True)]
         result = list(Path(mypath).rglob("*.[tT][eE][xX]"))
