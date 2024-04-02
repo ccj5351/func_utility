@@ -25,8 +25,12 @@ def batch_convert_nef_to_jpg(input_dir, output_dir, quality=90):
 if __name__ == "__main__":
     # Usage example
     input_dir = '/home/ccj/tmp'
+    input_dir = '/media/ccj/data3_hdd2T/Dropbox/Family Room/photos-照片/Claire-100Days-July08-2023'
+    input_dir = '/media/ccj/data3_hdd2T/Dropbox/Family Room/photos-照片/Claire-hello-world-Mar22-2023'
     #quality = 85  # An integer between 1 and 100
     quality = 95  # An integer between 1 and 100
     output_dir = f'/home/ccj/tmp_jpeg_cq{quality}'
+    output_dir = f'/media/ccj/data3_hdd2T/Dropbox/Family Room/photos-照片/Claire-100Days-July08-2023-jpeg_cq{quality}'
+    output_dir = input_dir + f'-jpeg_cq{quality}'
 
     batch_convert_nef_to_jpg(input_dir, output_dir, quality)
