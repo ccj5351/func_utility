@@ -53,26 +53,27 @@ if __name__ == "__main__":
     # ----- Your Input ----
     star_end_days = {
         # '%Y-%m-%d'
-        'changjiang': ['2023-11-20', '2024-01-26'],
-        'kevin': ['2023-11-20', '2023-12-31'],
-        'amy': ['2023-11-20', '2024-01-26'],
-        'mai': ['2024-01-01', '2024-01-26'],
-        'wang': ['2024-01-15', '2024-01-26'],
-        'Fiona': ['2023-11-20', '2023-12-31'],
+        'cc':   ['2024-01-26', '2024-03-31'],
+        'amy':  ['2024-01-26', '2024-02-29'],
+        'mai':  ['2024-01-26', '2024-03-31'],
+        'wan':  ['2024-01-26', '2024-03-31'],
+        'zhan': ['2024-03-01', '2024-03-31'],
     }
+    
+    bill_sum_info = defaultdict(float)
 
     bill_info = {
         "water": {
-            'amount': 377.18,
-            'period': ['2023-11-20', '2024-01-26'],
+            'amount': 280.40,
+            'period': ['2024-01-26', '2024-03-22'],
             },
         "internet (WiFi)": {
             'amount': 65.0,
-            'period': ['2024-01-01', '2024-01-31'],
+            'period': ['2024-03-01', '2024-03-31'],
             },
         "electric-gas": {
-            'amount': 202.92,
-            'period': ['2024-01-01', '2024-01-31'],
+            'amount': 159.26,
+            'period': ['2024-03-01', '2024-03-31'],
         },
     }
     # ----- Your Input ----
@@ -121,4 +122,7 @@ if __name__ == "__main__":
             per_person_bill_info[bill_type][k] = bil
             bill_sum += bil
             print (f"\t{k}: between {updated_star_end_days[bill_type][k][0]}-{updated_star_end_days[bill_type][k][1]}, i.e., {v} days, ==> avg bill = ${bil}")
+            bill_sum_info[k] += bil
         print (f"Total {bill_type} bill = {bill_sum:.3f}")
+
+    print (bill_sum_info)
