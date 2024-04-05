@@ -1,7 +1,7 @@
 # Common Functions
 
 ## Table of Contents
-1. [Overview](#book_overview)
+1. [Overview](#-overview)
 1. [Setup](#%EF%B8%8F-setup)
 
 ## 📖 Overview
