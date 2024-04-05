@@ -1,10 +1,10 @@
 # Common Functions
 
 ## Table of Contents
-1. [Overview](#book_overview )
-1. [Setup](#geat_setup)
+1. [Overview](#book_overview)
+1. [Setup](#%EF%B8%8F-setup)
 
-## 📖 Overview 
+## 📖 Overview
 Useful functions which I often use when doing research projects and/or in daily life.
 
 ## ⚙️ Setup
